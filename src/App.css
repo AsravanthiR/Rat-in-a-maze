@@ -1,0 +1,26 @@
+b {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    background: #359bdf;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .cell {
+    position: relative;
+  }
+  
+  .maze,
+  .path {
+    display: grid;
+    justify-content: center;
+  }
+  .link-wrapper {
+    font-size: 1.2rem;
+  }
+  .click {
+    border: none;
+    background-color: cornsilk;
+    font-size: larger;
+  }
